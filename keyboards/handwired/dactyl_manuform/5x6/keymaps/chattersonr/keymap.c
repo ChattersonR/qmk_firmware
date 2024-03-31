@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_A  , KC_S  , KC_D  , KC_F  , KC_G  ,                         KC_H  , KC_J  , KC_K  , KC_L  ,KC_SCLN,KC_QUOT,
         KC_LCTL, KC_Z  , KC_X  , KC_C  , KC_V  , KC_B  ,                         KC_N  , KC_M  ,KC_COMM,KC_DOT ,KC_SLSH,KC_RSFT,
                          KC_LBRC,KC_RBRC,                                                       KC_MINS, KC_EQL,
-                                         RAISE,KC_SPC,                           LT(RAISE,KC_ENT), LT(SYMBOL,KC_BSPC),
+                                         LOWER,KC_SPC,                           LT(RAISE,KC_ENT), LT(SYMBOL,KC_BSPC),
                                          KC_TAB,KC_HOME,                         KC_END,  KC_DEL,
                                          KC_BSPC, KC_GRV,                        KC_LGUI, KC_LALT
     ),
@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_A  , KC_R  , KC_S  , KC_T  , KC_G  ,                         KC_M  , KC_N  , KC_E  , KC_I  , KC_O  ,KC_QUOT,
         KC_LCTL, KC_Z  , KC_X  , KC_C  , KC_D  , KC_V  ,                         KC_K  , KC_H  ,KC_COMM,KC_DOT ,KC_SLSH,KC_RSFT,
                          KC_LBRC,KC_RBRC,                                                       KC_MINS, KC_EQL,
-                                         RAISE,KC_SPC,                           LT(RAISE,KC_ENT), LT(SYMBOL,KC_BSPC),
+                                         LOWER,KC_SPC,                           LT(RAISE,KC_ENT), LT(SYMBOL,KC_BSPC),
                                          KC_TAB,KC_HOME,                         KC_END,  KC_DEL,
                                          KC_BSPC, KC_GRV,                        KC_LGUI, KC_LALT
     ),

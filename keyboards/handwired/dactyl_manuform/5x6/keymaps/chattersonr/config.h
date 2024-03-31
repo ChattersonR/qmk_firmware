@@ -17,6 +17,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#define PERMISSIVE_HOLD
+#define PREVENT_STUCK_MODIFIERS
+
+#define USE_SERIAL
+#define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT 2000
+#define EE_HANDS
 //Master/slave delegation is made either by detecting voltage on VBUS connection or waiting for USB communication (SPLIT_USB_DETECT). Pro Micro boards can use VBUS detection out of the box and be used with or without SPLIT_USB_DETECT
 //#define MASTER_RIGHT
 //#define MASTER_RIGHT
